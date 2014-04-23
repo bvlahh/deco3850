@@ -1,0 +1,1 @@
+﻿package  {		import flash.display.MovieClip;	import FootTracker;		public class CameraVectors extends MovieClip {						public function CameraVectors() {			// constructor code		}	}	}
