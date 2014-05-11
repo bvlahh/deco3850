@@ -1,0 +1,1 @@
+﻿package  {		public class MapNode {		public function MapNode() {			// constructor code		}	}	}
