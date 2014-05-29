@@ -6,16 +6,13 @@
 	import flash.geom.Point;
 	
 	
-	public class MapNode extends MovieClip{
+	public class MapNode extends Point{
 		
-		var node:Point;
 
 		public function MapNode(){
+
 		}
 		
-		public function getNode() : Point {
-			return node;
-		}
 
 	}
 	
