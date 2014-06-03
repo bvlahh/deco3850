@@ -19,7 +19,7 @@
 	
 	public class RouteFinding extends MovieClip {
 		
-		private static var WAYPOINTFILE = "./testfile4.txt";
+		private static var WAYPOINTFILE = "./nodefile.txt";
 		private var waypoints:Object;
 		
 		private var startNodeName:TextField;
@@ -101,7 +101,7 @@
 				
 				startNode = nodeArray[0][0];
 				trace("start: " + startNode);
-				if (nodeArray[node][0] != ""){
+				if (nodeArray[nodeIterator][0] != ""){
 					endNode = nodeArray[nodeIterator][0];
 					trace("end: " + endNode);
 				}
@@ -148,7 +148,7 @@
 		}
 		
 		
-		public function nodeClicked(e:Event):void{
+		/*public function nodeClicked(e:Event):void{
 			
 			if(e.target is NodeCircle){
 				
@@ -173,7 +173,7 @@
 				
 				drawPath(routePath);
 			}
-		}
+		}*/
 	
 			
 		

@@ -68,7 +68,7 @@
 		public function Interface() {
 			
 			for (var button in buttonHolder) {
-				route = new RouteFinding(button - 1);
+				route = new RouteFinding(buttonHolder.indexOf(button));
 				trace(button);
 				mapHolder.push(route);
 				trace(buttonHolder[button], menuHolder[button], mapHolder[button]);
